@@ -1,0 +1,89 @@
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful AI assistant."
+        },
+        {
+            "role": "human",
+            "content": "what is weather or temperature in bengaluru"
+        },
+        {
+            "role": "ai",
+            "content": ""
+        },
+        {
+            "role": "tool",
+            "content": "The weather in Bengaluru is 28\u00b0C and Sunny."
+        },
+        {
+            "role": "ai",
+            "content": "**Bengaluru (Bangalore)** \u2013\u202fCurrently around **28\u202f\u00b0C** with a **sunny** sky."
+        },
+        {
+            "role": "human",
+            "content": "what is temperature of delhi"
+        },
+        {
+            "role": "ai",
+            "content": ""
+        },
+        {
+            "role": "tool",
+            "content": "The weather in Delhi is 28\u00b0C and Sunny."
+        },
+        {
+            "role": "ai",
+            "content": "**Delhi** \u2013\u202fThe current temperature is about **28\u202f\u00b0C** with a sunny outlook."
+        },
+        {
+            "role": "human",
+            "content": "what city has higher temperature"
+        },
+        {
+            "role": "ai",
+            "content": "Both cities are showing the same temperature right now\u2014**28\u202f\u00b0C**. So neither is higher than the other at this moment."
+        },
+        {
+            "role": "human",
+            "content": "quit"
+        },
+        {
+            "role": "ai",
+            "content": "Alright! If you need anything else later, just let me know. Have a great day!"
+        }
+    ],
+    "tool_history": [
+        {
+            "tool_name": "weather",
+            "arguments": {
+                "city": "Bengaluru"
+            },
+            "timestamp": "2026-07-18 04:04:06"
+        },
+        {
+            "tool_name": "weather",
+            "arguments": {
+                "city": "Delhi"
+            },
+            "timestamp": "2026-07-18 04:04:22"
+        }
+    ],
+    "tool_results": [
+        {
+            "tool_name": "weather",
+            "output": "The weather in Bengaluru is 28\u00b0C and Sunny.",
+            "status": "success"
+        },
+        {
+            "tool_name": "weather",
+            "output": "The weather in Delhi is 28\u00b0C and Sunny.",
+            "status": "success"
+        }
+    ],
+    "metadata": {
+        "session_id": "session_001",
+        "status": "running",
+        "current_step": "completed"
+    }
+}
